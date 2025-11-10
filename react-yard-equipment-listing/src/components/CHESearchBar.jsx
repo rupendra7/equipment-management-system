@@ -37,7 +37,7 @@ const CHESearchBar = ({ onSearch, onClear, onFetch, onDelete }) => {
                 placeholder="Search CHE by ID..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                //onChange={(e) => setDeleteId(e.target.value)}
+              //onChange={(e) => setDeleteId(e.target.value)}
               />
             </div>
             <div className="col-md-2">

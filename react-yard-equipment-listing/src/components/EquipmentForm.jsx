@@ -96,8 +96,8 @@ const EquipmentForm = ({
           {mode === "create"
             ? "Add New Equipment"
             : mode === "edit"
-            ? "Edit Equipment"
-            : "View Equipment"}
+              ? "Edit Equipment"
+              : "View Equipment"}
         </h2>
 
         {error && <p className="error">{error}</p>}
@@ -178,8 +178,8 @@ const EquipmentForm = ({
                 {loading
                   ? "Saving..."
                   : mode === "create"
-                  ? "Create"
-                  : "Update"}
+                    ? "Create"
+                    : "Update"}
               </button>
               <button type="button" onClick={onClose} disabled={loading}>
                 Cancel

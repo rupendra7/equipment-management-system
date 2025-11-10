@@ -9,6 +9,7 @@ const Logout = () => {
     const handleLogout = async () => {
       try {
         await logout();
+        localStorage.removeItem("isLoggedIn");
         navigate("/");
       } catch (error) {
         console.error("Logout failed:", error);

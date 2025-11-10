@@ -19,6 +19,7 @@ function LoginPage() {
       const result = await login(username, password); // Service call
 
       if (result === "Success") {
+        localStorage.setItem("isLoggedIn", "true");
         navigate("/dashboard", { state: { username } });
       }
     } catch (err) {
