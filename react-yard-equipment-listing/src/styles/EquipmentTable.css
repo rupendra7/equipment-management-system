@@ -24,6 +24,7 @@
   top: 0;
   z-index: 2;
 }
+
 .equipment-table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
@@ -31,8 +32,10 @@
 .equipment-table tr:hover {
   background-color: #e6f7ff;
 }
+
 .equipment-table thead th {
-  background-color: #8e7cc3; /* Blue */
+  background-color: #8e7cc3;
+  /* Blue */
   color: white;
   padding: 12px 10px;
   text-align: left;
@@ -55,9 +58,11 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #eec231; /* Orange */
+  background-color: #eec231;
+  /* Orange */
   color: white;
 }
+
 .btn-new:hover {
   background-color: #eec231;
 }
@@ -69,9 +74,11 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #f44336; /* Google Red */
+  background-color: #f44336;
+  /* Google Red */
   color: white;
 }
+
 .btn-delete:hover {
   background-color: #f44336;
 }
@@ -83,9 +90,11 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #ffd966; /* Google Orange */
+  background-color: #ffd966;
+  /* Google Orange */
   color: white;
 }
+
 .btn-edit:hover {
   background-color: #ffd966;
 }
@@ -100,6 +109,7 @@
   background-color: #3d85c6;
   color: white;
 }
+
 .btn-view:hover {
   background-color: #3d85c6;
 }
@@ -120,6 +130,7 @@
   margin: 16px 0;
   text-align: center;
 }
+
 /* Search Bar Styles */
 .search-container {
   display: flex;
